@@ -1,0 +1,30 @@
+.pc-login-recommend{
+    color: #000;
+    background: #bbb;
+    border-radius: 6px;
+    padding: 17px 19px;
+    font-size: 1.2em;
+}
+
+.pc-page-list{
+    list-style:none;
+    display: flex;
+}
+
+.pc-page-list li {
+    margin-right: 4px;
+}
+
+.pc-page-list a{
+    display: block;
+    background: greenyellow;
+    color: #000;
+    padding: 5px 9px;
+    border-radius: 6px;
+}
+
+.pc-page-list a:hover, .pc-current-page a{
+    font-weight: bold;
+    background: #fff;
+    color: #000;
+}
